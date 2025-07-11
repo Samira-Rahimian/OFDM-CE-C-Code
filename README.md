@@ -3,17 +3,17 @@ ________________________________________________________________________________
 Project Overview:
 __________________________________________________________________________________________________
 
-This project implements the communication system described in the paper "Performance of OFDM/TDM with MMSE-FDE Using Pilot-assisted Channel Estimation." The objective is to recreate Figure 6 from the paper, which illustrates the average Bit Error Rate (BER) for various Eb/N0 values across five distinct channel estimation scenarios:
+This project implements the communication system described in the paper "Performance of OFDM/TDM with MMSE-FDE Using Pilot-assisted Channel Estimation." The objective is to recreate Figure 6 from the paper, which illustrates the average Bit Error Rate (BER) for various Eb/N0 values across five distinct channel estimation (CE) scenarios:
 
-1- OFDM/TDM with Channel Estimation (CE)
+1- OFDM/TDM Pilot and Non-Ideal  CE
 
-2- OFDM/TDM with Ideal CE
+2- OFDM/TDM Pilot and Ideal CE
 
-3- OFDM with TDM Pilot
+3- OFDM with TDM Pilot and Non-Ideal CE
 
-4- OFDM with TDM Pilot with Ideal CE
+4- OFDM with TDM Pilot and Ideal CE
 
-5- OFDM with FDM Pilot
+5- OFDM with FDM Pilot CE
 
 The implementation is written in C, with separate files handling different cases.
 ___________________________________________________________________________________________________
