@@ -30,7 +30,7 @@ ber_data.txt: Output file storing simulation results. Each line follows the form
 
 ber_data_all.txt: A file to aggregate results from all cases in order for plotting.
 
-Plotting_python.txt: Includes script to generate BER vs. Eb/N0 graphs from ber_data_all.txt.
+plot_ber.py: Includes Python code to generate BER vs. Eb/N0 graphs from ber_data_all.txt.
 __________________________________________________________________________________________________
 Usage Instructions:
 __________________________________________________________________________________________________
